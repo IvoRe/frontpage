@@ -20,7 +20,7 @@ $config = [
 ];
 ~~~
 
-The frontpage will be accessible via `index.php?r=frontpage', and will open with a default make-up and images.
+The frontpage will be accessible via `index.php?r=frontpage`, and will open with a default make-up and images.
 
 Customize the frontpage by copying the `@frontpage\defaults` directory to where you like. Below, we assume that your copy can be reached via `@app/myfrontpage`. Change `sections.php` and `views/*` to taste. Make the frontpage refer to your changed files by configuring the Yii config as follows:
 
